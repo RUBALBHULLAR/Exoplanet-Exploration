@@ -29,7 +29,7 @@ To help process this data, we need to create machine learning models capable of 
 
 ### Reporting
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+* A comparison of each model's performance as well as a summary about findings and any assumptions based on model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
 - - -
 
@@ -45,11 +45,11 @@ To help process this data, we need to create machine learning models capable of 
 
 - - -
 
-## Hints and Considerations
+## Considerations
 
-* Start by cleaning the data, removing unnecessary columns, and scaling the data.
+* Cleaning the data, removing unnecessary columns, and scaling the data.
 
-* Not all variables are significant be sure to remove any insignificant variables.
+* Not all variables are significant to remove any insignificant variables.
 
 * Make sure your `sklearn` package is up to date.
 
@@ -58,17 +58,3 @@ To help process this data, we need to create machine learning models capable of 
 * When hyper-parameter tuning, some models have parameters that depend on each other, and certain combinations will not create a valid model. Be sure to read through any warning messages and check the documentation
 
 - - -
-
-## Submission
-
-* Create a Jupyter Notebook for each model and host the notebooks on GitHub.
-
-* Create a file for your best model and push to GitHub
-
-* Include a README.md file that summarizes your assumptions and findings.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-##### © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
