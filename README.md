@@ -2,30 +2,11 @@
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
 
-### Before You Begin
-
-1. Create a new repository for this project called `machine-learning-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Give each model you choose their own Jupyter notebook, **do not use more than one model per notebook.**
-
-4. Save your best model to a file. This will be the model used to test your accuracy and used for grading.
-
-5. Commit your Jupyter notebooks and model file and push them to GitHub.
-
-## Note
-
-Keep in mind that this homework is optional! However, you will gain a much greater understanding of testing and tuning different Classification models if you do complete it.
-
 ## Background
 
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
 
-To help process this data, you will create machine learning models capable of classifying candidate exoplanets from the raw dataset.
-
-In this homework assignment, you will need to:
-
+To help process this data, we need to create machine learning models capable of classifying candidate exoplanets from the raw dataset.
 1. [Preprocess the raw data](#Preprocessing)
 2. [Tune the models](#Tune-Model-Parameters)
 3. [Compare two or more models](#Evaluate-Model-Performance)
@@ -48,7 +29,7 @@ In this homework assignment, you will need to:
 
 ### Reporting
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+* A comparison of each model's performance as well as a summary about findings and any assumptions based on model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
 - - -
 
@@ -64,11 +45,11 @@ In this homework assignment, you will need to:
 
 - - -
 
-## Hints and Considerations
+## Considerations
 
-* Start by cleaning the data, removing unnecessary columns, and scaling the data.
+* Cleaning the data, removing unnecessary columns, and scaling the data.
 
-* Not all variables are significant be sure to remove any insignificant variables.
+* Not all variables are significant to remove any insignificant variables.
 
 * Make sure your `sklearn` package is up to date.
 
@@ -77,17 +58,3 @@ In this homework assignment, you will need to:
 * When hyper-parameter tuning, some models have parameters that depend on each other, and certain combinations will not create a valid model. Be sure to read through any warning messages and check the documentation
 
 - - -
-
-## Submission
-
-* Create a Jupyter Notebook for each model and host the notebooks on GitHub.
-
-* Create a file for your best model and push to GitHub
-
-* Include a README.md file that summarizes your assumptions and findings.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-##### © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
